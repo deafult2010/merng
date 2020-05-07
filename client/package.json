@@ -16,7 +16,10 @@
     "moment": "2.24.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
   },
   "resolutions": {
     "moment": "2.24.0"
@@ -45,5 +48,6 @@
   },
   "devDependencies": {
     "npm-force-resolutions": "0.0.3"
-  }
+  },
+  "proxy": "https://merngblog.herokuapp.com/"
 }

@@ -10,12 +10,14 @@ connectDB();
 
 const pubsub = new PubSub();
 
+const PORT = process.env.PORT || 5000;
+
 const server = new ApolloServer({
   typeDefs,
   resolvers,
   context: ({ req }) => ({ req, pubsub }),
 });
 
-server.listen({ port: 5000 }).then((res) => {
+server.listen({ port: PORT }).then((res) => {
   console.log(`Server running on port ${res.url}`);
 });
