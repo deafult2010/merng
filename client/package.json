@@ -48,6 +48,5 @@
   },
   "devDependencies": {
     "npm-force-resolutions": "0.0.3"
-  },
-  "proxy": "https://merngblog.herokuapp.com/"
+  }
 }
