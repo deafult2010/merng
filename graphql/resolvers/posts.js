@@ -33,7 +33,7 @@ module.exports = {
     async createPost(parent, { body }, context) {
       const user = checkAuth(context);
 
-      if (args.body.trim() === '') {
+      if (body.trim() === '') {
         throw new Error('Post body required');
       }
 
