@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://root:Flagex2010@cluster0-8beqf.mongodb.net/merng?retryWrites=true&w=majority",
+  "SECRET_KEY": "secret"
+}
